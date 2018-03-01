@@ -120,8 +120,13 @@ rm -rf ./redis-3.0.6/
 #source ./out1.sh "apk_name='com.amparosoft.progressivemetronome.free'"  
 for ((port=1; port<=$portnum;port++))
 do
+    confport="Port"$port
     source OutputConf.sh
-    OutputConf $IPself $[Port$port]
+    echo "写配置文件"
+    echo "port:"
+    echo -n ${!confport}
+    OutputConf $IPself ${!confport}
+
 done	
 
 if [ -d "/etc/RedisCluster" ]; then
