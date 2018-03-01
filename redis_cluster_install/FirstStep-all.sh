@@ -1,9 +1,8 @@
-# Last Update:2017-02-27 11:12:44
 #########################################################################
-# File Name: FirstStep.sh
-# Author: wangchenxi
+# File Name: FirstStep-new.sh
+# Author: Lihaihui
 # mail: chinawangchenxi@gmail.com
-# Created Time: Mon 27 Feb 2017 11:12:44 AM CST
+# Created Time: 2018-03-01
 # brief:
 #########################################################################
 #!/bin/bash
